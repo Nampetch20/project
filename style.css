@@ -2,7 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
-  
+@media only screen and (max-width: 600px) {
+  /* Styles สำหรับหน้าจอสมาร์ทโฟน */
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+
 /* รีเซ็ตค่าพื้นฐาน */
 * {
     margin: 0;
