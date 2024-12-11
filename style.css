@@ -8,6 +8,16 @@
     width: 100%;
     padding: 10px;
   }
+
+  nav ul li a {
+    font-size: 0.9rem;
+    padding: 3px 7px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+  
 }
 
 
