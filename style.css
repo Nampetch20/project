@@ -1,6 +1,28 @@
 /* style.css */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+/* สำหรับหน้าจอขนาดเล็ก */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  /* สำหรับหน้าจอขนาดใหญ่ */
+  @media (min-width: 601px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      padding: 20px;
+    }
+  }
+
+  
 /* รีเซ็ตค่าพื้นฐาน */
 * {
     margin: 0;
