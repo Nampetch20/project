@@ -152,6 +152,13 @@ main {
     text-align: left;
 }
 
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* หรือกำหนดความสูงที่เหมาะสม */
+}
+
 
 /* ส่วนท้าย */
 footer {
