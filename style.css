@@ -90,13 +90,13 @@
 
  .video-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   max-width: 560px;
   margin: auto;
 }
 
 .video-container iframe {
-  width: 100%;
+  width: 90%;
   height: auto;
   aspect-ratio: 16 / 9;
 }
