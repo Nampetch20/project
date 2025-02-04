@@ -69,13 +69,20 @@
   }
 
  .project-img img {
-    width: 100%;
-    max-width: 90%;
+    width: 90%;
+    max-width: 600px;
     height: auto;
     display: block;
     margin: 0 auto;
  }
- 
+ img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+ }
+
+
  .video-container {
   position: relative;
   width: 100%;
