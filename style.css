@@ -4,12 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
-
 @media only screen and (max-width: 600px) {
   /* Styles สำหรับหน้าจอสมาร์ทโฟน */
   .container {
     width: 100%;
-    padding: 10px;
+    padding: 0;
+  }
+
+  header {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+ }
+
+ body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* แค่ซ่อนการเลื่อนแนวนอน */
+  
   }
 
   header h1 {
@@ -17,39 +31,25 @@
     margin-bottom: 5px;
   }
 
-  nav{
-    width: 100%;
-  }
-
   nav ul {
-
-    display: flex; /* ทำให้ Flexbox ทำงาน */
-    flex-direction: column; /* จัดเมนูเป็นแนวตั้ง */
-    align-items: center; /* จัดเมนูให้อยู่ตรงกลาง */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
-    width: 100%;
-  }
-
-  nav ul li {
-    width: 100%; /* ปรับให้ลิงก์แต่ละอันกว้างเต็ม */
-    text-align: center;
-  }
-
-  nav ul li a {
-    display: block; /* ทำให้ลิงก์แต่ละอันเป็นบล็อกเพื่อให้คลิกง่าย */
-    font-size: 1.2rem;
-    padding: 15px;
-    width: 100%;
-    background: #ff69b4; /* สีพื้นหลัง */
-    color: white;
-    text-align: center;
+    margin: 0;
+    list-style: none;
     
   }
 
-nav ul li a:hover{
-  background: white;
-  color: #ff69b4;
-}
+  nav ul li {
+    margin: 5px;
+ }
+
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
 
   .intro h2, .education h2 {
     font-size: 1.5rem; /* ลดขนาดหัวข้อเพื่อให้เหมาะกับหน้าจอ */
@@ -57,12 +57,38 @@ nav ul li a:hover{
 
   .home-img, .project-img {
     text-align: center; /* ปรับตำแหน่งรูปภาพให้อยู่ตรงกลาง */
+    display: flex;
+    justify-content: center; /* จัดรูปให้อยู่ตรงกลาง */
+    width: 100%;
   }
   
   .home-img img, .project-img img {
-    width: 100%; /* ปรับขนาดรูปภาพให้ครอบคลุมความกว้างหน้าจอ */
-    height: auto; /* รักษาอัตราส่วนของรูปภาพ */
+    width: 100%; /* ปรับให้รูปเต็มจอ */
+    max-width: 100%;
+    height: auto;
   }
+
+ .project-img img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+ }
+ 
+ .video-container {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
 
   main {
     padding: 10px;
@@ -74,7 +100,6 @@ nav ul li a:hover{
   }
 
 }
-
 
 
 /* รีเซ็ตค่าพื้นฐาน */
@@ -97,6 +122,7 @@ header {
     color: #fff;
     padding: 20px 10px;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
