@@ -7,7 +7,7 @@
 @media only screen and (max-width: 600px) {
   /* Styles สำหรับหน้าจอสมาร์ทโฟน */
   .container {
-    width: 70%;
+    width: 100%;
     padding: 0;
   }
 
@@ -79,13 +79,13 @@
   }
 
  .project-img img {
-  width: 80% !important; /* ปรับขนาดภาพเป็น 80% ของ container */
-  max-width: 250px !important; /* จำกัดความกว้างสูงสุด */
-  height: auto !important; /* รักษาอัตราส่วนของรูป */
-  display: block !important;
-  margin: 10px auto !important;
-  object-fit: contain !important;
-  border-radius: 8px !important;
+  width: 80% ; /* ปรับขนาดภาพเป็น 80% ของ container */
+  max-width: 250px ; /* จำกัดความกว้างสูงสุด */
+  height: auto; /* รักษาอัตราส่วนของรูป */
+  display: block;
+  margin: 10px auto;
+  object-fit: contain;
+  border-radius: 8px;
 
  }
 
