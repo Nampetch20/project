@@ -82,10 +82,8 @@
     width: 90%;
     max-width: 600px;
     height: auto;
-    max-height: 400px;
     display: block;
     margin: 0 auto;
-    object-fit: contain;
 
  }
 
