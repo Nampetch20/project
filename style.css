@@ -79,10 +79,12 @@
   }
 
   .porject-img img {
-    width: 90%;  /* ลดขนาดรูปภาพให้ไม่เต็มหน้าจอ */
+    width: 100%;  /* ลดขนาดรูปภาพให้ไม่เต็มหน้าจอ */
     max-width: 400px;  /* จำกัดขนาดสูงสุด */
-    max-height: 200px;
+    max-height: 250px;
     height: auto;
+    object-fit: contain;
+    border-radius: 8px;
   }
   
   .project-img img, .video-container iframe, video {
