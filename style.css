@@ -78,29 +78,18 @@
     height: auto;
   }
 
-.porject.project-img img {
-  width: 80% ; /* ปรับขนาดภาพเป็น 80% ของ container */
-  max-width: 250px ; /* จำกัดความกว้างสูงสุด */
-  height: auto; /* รักษาอัตราส่วนของรูป */
-  display: block;
-  margin: 10px auto;
-  object-fit: contain;
-  border-radius: 8px;
-
- }
-
- .project-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
- }
-
-
+  .porject-img img {
+    width: 90%;  /* ลดขนาดรูปภาพให้ไม่เต็มหน้าจอ */
+    max-width: 400px;  /* จำกัดขนาดสูงสุด */
+    max-height: 200px;
+    height: auto;
+  }
+  
+  .project-img img, .video-container iframe, video {
+    width: 95%; /* ทำให้ขนาดเล็กลง */
+    max-width: 300px;
+    height: auto;
+  }
 
  .video-container {
   position: relative;
