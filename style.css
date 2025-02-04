@@ -69,17 +69,17 @@
     text-align: center; /* ปรับตำแหน่งรูปภาพให้อยู่ตรงกลาง */
     display: flex;
     justify-content: center; /* จัดรูปให้อยู่ตรงกลาง */
-    width: 70%;
+    width: 100%;
   }
   
   .home-img img, .project-img img {
-    width: 70%; /* ปรับให้รูปเต็มจอ */
-    max-width: 70%;
+    width: 100%; /* ปรับให้รูปเต็มจอ */
+    max-width:100%;
     height: auto;
   }
 
  .project-img img {
-    width: 70%;
+    width: 100%;
     max-width: 450px;
     height: auto;
     display: block;
@@ -94,7 +94,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   max-width: 500px;
   margin: auto;
   overflow: hidden;
