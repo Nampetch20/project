@@ -79,8 +79,8 @@
   }
 
  .project-img img {
-    width: 90%;
-    max-width: 250px;
+    width: 80%;
+    max-width: 100px;
     height: auto;
     display: block;
     margin: 10px auto;
