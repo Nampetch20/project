@@ -17,11 +17,16 @@
     text-align: center;
     padding: 15px 0;
     margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
  }
 
  body{
   margin: 0;
   padding: 0;
+  width: 100%;
   overflow-x: hidden; /* แค่ซ่อนการเลื่อนแนวนอน */
   
   }
