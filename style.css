@@ -23,7 +23,7 @@
     flex-direction: column; /* จัดเมนูเป็นแนวตั้ง */
     align-items: center; /* จัดเมนูให้อยู่ตรงกลาง */
     padding: 0;
-    
+    width: 100%;
   }
 
   nav ul li {
@@ -36,6 +36,15 @@
     font-size: 1rem;
     padding: 15px;
     width: 100%;
+    background: #ff69b4; /* สีพื้นหลัง */
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white; /* เส้นแบ่งแต่ละเมนู */
+  }
+
+  nav ul li a:hover{
+    background: white;
+    color: #ff69b4;
   }
 
   .intro h2, .education h2 {
