@@ -18,13 +18,24 @@
   }
 
   nav ul {
-    flex-direction: column; /* จัดเรียงเมนูแนวตั้งสำหรับสมาร์ทโฟน */
+
+    display: flex; /* ทำให้ Flexbox ทำงาน */
+    flex-direction: column; /* จัดเมนูเป็นแนวตั้ง */
+    align-items: center; /* จัดเมนูให้อยู่ตรงกลาง */
+    padding: 0;
     
   }
 
+  nav ul li {
+    width: 100%; /* ปรับให้ลิงก์แต่ละอันกว้างเต็ม */
+    text-align: center;
+  }
+
   nav ul li a {
-    font-size: 0.9rem;
-    padding: 10px;
+    display: block; /* ทำให้ลิงก์แต่ละอันเป็นบล็อกเพื่อให้คลิกง่าย */
+    font-size: 1rem;
+    padding: 15px;
+    width: 100%;
   }
 
   .intro h2, .education h2 {
@@ -51,46 +62,7 @@
 
 }
 
-nav ul {
-  list-style-type: none; /* เอา bullet points ออก */
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* ระยะห่างระหว่างเมนู */
-}
 
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  padding: 10px 15px;
-  transition: 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #f4f4f4;
-  border-radius: 5px;
-}
-
-/* เมื่อหน้าจอเล็กลง ให้เรียงเมนูเป็นคอลัมน์ */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; /* ลดระยะห่าง */
-  }
-
-  nav ul li a {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-}
 
 /* รีเซ็ตค่าพื้นฐาน */
 * {
