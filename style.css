@@ -100,14 +100,6 @@
   overflow: hidden;
  }
 
- img{
-  max-width: 70%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-
- }
-
 
  .video-container {
   position: relative;
