@@ -79,13 +79,9 @@
   }
 
  .project-img img {
-    width: 80%;
-    max-width: 100px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    border-radius: 8px;
-    object-fit: contain;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
   
 
  }
