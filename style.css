@@ -31,6 +31,11 @@
   
   }
 
+  body, main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   header h1 {
     font-size: 1.8rem; /* ลดขนาดฟอนต์สำหรับหน้าจอขนาดเล็ก */
     margin-bottom: 5px;
@@ -80,12 +85,13 @@
     display: block;
     margin: 0 auto;
  }
-
  img{
   max-width: 100%;
+  max-width: 600px;
   height: auto;
   display: block;
   margin: 0 auto;
+  object-fit: cover;
  }
 
 
@@ -94,7 +100,7 @@
   width: 90%;
   max-width: 560px;
   margin: auto;
-  }
+}
 
   .video-container iframe {
   width: 90%;
@@ -258,5 +264,3 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
-
-
