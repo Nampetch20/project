@@ -39,13 +39,14 @@
     background: #ff69b4; /* สีพื้นหลัง */
     color: white;
     text-align: center;
-    border-bottom: 1px solid white; /* เส้นแบ่งแต่ละเมนู */
+    border-bottom: 1px solid white;
+    
   }
 
-  nav ul li a:hover{
-    background: white;
-    color: #ff69b4;
-  }
+nav ul li a:hover{
+  background: white;
+  color: #ff69b4;
+}
 
   .intro h2, .education h2 {
     font-size: 1.5rem; /* ลดขนาดหัวข้อเพื่อให้เหมาะกับหน้าจอ */
