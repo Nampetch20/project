@@ -80,12 +80,13 @@
 
  .project-img img {
     width: auto;
-    max-width: 70%;
-    max-height: 400px;
+    max-width: 600px;
     height: auto;
+    max-height: 400px;
+    aspect-ratio: 16/9;
     display: block;
     margin: 0 auto;
-    object-fit: contain;
+    object-fit: cover;
 
  }
 
