@@ -79,14 +79,12 @@
   }
 
  .project-img img {
-    width: auto;
+    width: 90%;
     max-width: 600px;
-    height: auto;
-    max-height: 400px;
-    aspect-ratio: 16/9;
+    height: 90%;
     display: block;
     margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain;
 
  }
 
