@@ -31,11 +31,6 @@
   
   }
 
-  body, main {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
   header h1 {
     font-size: 1.8rem; /* ลดขนาดฟอนต์สำหรับหน้าจอขนาดเล็ก */
     margin-bottom: 5px;
@@ -79,32 +74,32 @@
   }
 
  .project-img img {
-    width: 100%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 90%;
     height: auto;
-    margin: 10px;
-    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
  }
+
  img{
   max-width: 100%;
-  max-width: 600px;
   height: auto;
   display: block;
   margin: 0 auto;
-  object-fit: cover;
  }
 
 
  .video-container {
-  position: center;
-  margin-top: 20px;
-}
+  position: relative;
+  width: 90%;
+  max-width: 560px;
+  margin: auto;
+  }
 
   .video-container iframe {
-  width: 85%;
-  max-width: 560px;
-  height: 315;
-
+  width: 90%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   }
 
 
@@ -115,13 +110,6 @@
   height: auto; /* ให้ปรับความสูงอัตโนมัติ */
   display: block;
   margin: 0 auto; /* จัดให้อยู่กึ่งกลาง */
-  }
-
-  .project-img video{
-    width: 90%;
-    max-width: 300px;
-    height: auto;
-    margin: 10px;
   }
 
   main {
